@@ -3,7 +3,7 @@ import requests
 
 
 def find_exchange_rate(page):
-    soup = BeautifulSoup(page.content)
+    soup = BeautifulSoup(page.content, features='html.parser')
     results = soup.find_all('span', {'class': 'ccOutputRslt'})
     if results:
         return results[0].text

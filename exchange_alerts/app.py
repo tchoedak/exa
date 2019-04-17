@@ -11,7 +11,7 @@ import requests
 @click.option('-f', '--from_', default=None)
 @click.option('-t', '--to', default=None)
 @click.option('-th', '--threshold', default=None)
-@click.option('-s', '--send-alerts', default=True)
+@click.option('-s', '--send-alerts', is_flag=True, default=False)
 def cli(from_, to, threshold, send_alerts):
     from_ = from_ or config.from_
     to = to or config.to
