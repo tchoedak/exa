@@ -18,17 +18,14 @@ def extract_currency(scraped_result):
 
 
 class Result(object):
-
     def __init__(self, url):
         self.page = requests.get(url.url)
         self.result = find_exchange_rate(self.page)
         self.value = extract_value(self.result)
         self.url = url
 
-
     def __repr__(self):
         return f'1 \033[32m{self.url.from_} : \033[33m{self.value} {self.url.to}'
-
 
     def __str__(self):
         return f'1 {self.url.from_} : {self.value} {self.url.to}'

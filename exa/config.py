@@ -11,7 +11,6 @@ TWILIO_NUMBER = os.environ.get('TWILIO_NUMBER')
 
 
 class URL(object):
-
     def __init__(self, from_, to):
         self.from_ = from_
         self.to = to

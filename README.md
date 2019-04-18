@@ -1,5 +1,8 @@
 <p align="center"><img height="150" width="150" src="logo.png" /></p>
 
+
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 # Installation
 
 Clone the repo and use pip to install the package

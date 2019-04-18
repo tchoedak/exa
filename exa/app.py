@@ -15,6 +15,7 @@ import requests
 def cli(from_, to, threshold, send_alerts):
     run(from_, to, threshold, send_alerts)
 
+
 def run(from_, to, threshold, send_alerts):
     from_ = from_ or config.from_
     to = to or config.to
