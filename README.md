@@ -1,4 +1,4 @@
-<p align="center"><img height="300" width="300" src="logo.png" /></p>
+<p align="center"><img height="150" width="150" src="logo.png" /></p>
 
 # Installation
 
