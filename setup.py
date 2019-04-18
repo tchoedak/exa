@@ -3,8 +3,8 @@ from setuptools import setup
 
 
 setup(
-    name='exchange-alerts',
-    packages=['exchange_alerts'],
+    name='exa',
+    packages=['exa'],
     version='0.0.1',
     author='tchoedak',
     author_email='tchoedak@gmail.com',
@@ -16,6 +16,6 @@ setup(
         'twilio'
     ],
     entry_points={
-        'console_scripts': ['exa=exchange_alerts.app:cli'],
+        'console_scripts': ['exa=exa.app:cli'],
     },
 )
