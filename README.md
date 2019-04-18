@@ -11,6 +11,15 @@ git clone https://github.com/tchoedak/exa.git
 pip install exa/
 ```
 
+Set the following environment variables to be able to send alerts.
+
+```
+TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN
+RECEIVER_NUMBER
+TWILIO_NUMBER
+```
+
 # Usage
 
 Find the exchange rate from 1 USD to EUR
